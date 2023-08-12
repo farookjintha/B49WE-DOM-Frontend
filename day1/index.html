@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container" id="myContainerId">
+      <h1>Hello World</h1>
+    </div>
+
+    <div class="input-container">
+      <input type="text" id="myInput" placeholder="Enter content" />
+    </div>
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+    <div class="square myClass">
+      <p>HELLO, MY CLASS</p>
+    </div>
+
+    <div class="square myClass">
+      <p>HELLO, MY CLASS</p>
+      <h3>HELLOOOOOOOO</h3>
+    </div>
+
+    <div class="square" id="myId">
+      <p>HELLO, MY ID</p>
+      <h3>HELLOOOOOO</h3>
+    </div>
+
+    <div class="square" id="myId">
+      <p>HELLO, MY ID</p>
+    </div>
+
+    <div class="button-container">
+      <div>
+        <button onclick="createAnElement()">Click to Add H2 Element</button>
+        <button onclick="replaceElement()">Replace Content</button>
+        <button onclick="createAnchorElement()">Add an anchor element</button>
+        <button onclick="appendContent()">Append Content</button>
+        <button onclick="getChild()">Get Child</button>
+        <button onclick="getByClassName()">Get Elements by ClassName</button>
+        <button onclick="getByTagName()">Get Elements by Tag</button>
+      </div>
+
+      <div>
+        <button onClick="useQuerySelectorWithId()">Query Selector By Id</button>
+        <button onClick="useQuerySelectorWithClassName()">
+          Query Selector By ClassName
+        </button>
+        <button onClick="useQuerySelectorWithTagName()">
+          Query Selector By TagName
+        </button>
+      </div>
+
+      <div>
+        <button onClick="useQuerySelectorAllWithId()">
+          Query Selector All By Id
+        </button>
+        <button onClick="useQuerySelectorAllWithClassName()">
+          Query Selector All By ClassName
+        </button>
+        <button onClick="useQuerySelectorAllWithTagName()">
+          Query Selector All By TagName
+        </button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
