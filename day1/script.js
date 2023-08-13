@@ -6,6 +6,7 @@ function showH2Element() {
 
 function getContent() {
   content = document.getElementById("myInput").value;
+  //   content = window.document.getElementById("myInput").value;
 }
 
 function createAnElement() {
